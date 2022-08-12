@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+.container{
+    padding-bottom: 60px;
+    max-width: 1720px;
+}
+
+.cont{
+    padding-top: 0px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(243, 154, 191);
+}
+
+a{
+    transition: 0.2s;
+    position: relative;
+}
+
+.linn{
+    transition: 0.2s;
+    opacity: 0;
+    font-weight: bold;
+    font-size: 40px;
+    position	: absolute;
+	top		: 0px;
+	left		: 0;
+	width		: 100%;
+    text-decoration: none;
+    color: rgb(243, 154, 191);
+}
+
+a:hover img{
+    transition: 0.2s;
+    opacity: 0.3;
+    box-shadow: 10px 10px pink;
+}
+
+a:hover .linn{
+    transition: 0.2s;
+    opacity: 1;
+    
+}
+
+
+.logo{
+    font-weight: bolder;
+    padding-top: 30px;
+    font-size: 90px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(243, 154, 191);
+    text-shadow: 5px 5px white;
+}
